@@ -1,0 +1,31 @@
+Executive Summary
+
+Immersive Multimedia is an Embedded Systems Endeavour which requires the development of intertwined networks in the fields of Software Engineering, Computer Architecture, and System on a Chip SoC Design (ASIP alternatively).
+From a Software Engineering perspective, the gamification of daily tasks pushes individuals to re-evaluate their existance; ponder alternatives, altering customer-behavior. Game Development is now mobile: Last quarter, Nintendo's revenue fell 8.4%, year over year, to 74.7 billion yen ($727 million)[1], and it posted a net loss of 9.9 billion yen ($97 million). King Digital Entertainment (NYSE: KING), the maker of Candy Crush Saga, reported that its revenue nearly tripled, year over year, to $608 million last quarter, while its profit soared 141% to $127.2 million. Candy Crush Saga accounted for 67% of all gross bookings.
+
+The customer of today demands efficient-entertainment that inspire. Abstract storylines with addictive gameplay shall dominate the scene of tomorrow. Multi-player and Social Gaming shall co-exist in frictionless cohesion.
+Black-Squirrel TM is Today's response for the demands of tomorrow's Artificers. Satoru Iwata is a brilliant businessman and programmer who helped Nintendo dominate the seventh console generation with the original Wii. But considering that the maker of Candy Crush Saga is now on track to generate higher annual revenue and profit than Nintendo, it might be wise to give mobile games a try.
+
+Black-Squirrel TM addresses the issue of aural and visual coherence during gameplay using the Dali.ME structure (Dali Media Express) -- A partnership with San Francisco's Pioneering Electronic music website Proton Radio which receives on average 10,000-25,000 visitors a month and houses 20+ digital music labels with catalogs available on iTunes, Beatport, Dj Download, Shazaam, and Spotify to name a few. 
+
+The Dali.ME structure integrates a console-agnostic gamification experience like no other: the ability to play unforgettable mobile games while listening to timeless electronic music assembled by a variety of artists located in U.K, Russia, Mexico, U.S.A, Scotland, Spain, Argentina, Chile, and Holland. Apple's iTunes App Store continues to enjoy the highest market share of games developed for iOS at 65%. In 2013, users in the Chinese market have gradually become accustomed to downloading games and music in the App Store.[2] iOS system upgrades and iterations have become faster, therefore, users are less inclined to jailbreak their devices.
+Also, a majority of the games in the Chinese App Store have adopted the IAP model. As of the end of December, quite a few traditionally paid games have started to offer free downloads and adopted the IAP model. In the meantime, non-jailbroken third-party iOS market has increased distribution in 2013, exerting pressure on the jailbroken market and the App Store. The top 200 applications in the iOS App Store are believed to post combined gross revenues of $18 million on a typical day, according to a report from analytics firm Distimo. The same grouping on Android's Google Play store, in contrast, is thought to book just $12 million.[2] Those amounts are forecasted to go up by $5 million and $20.5 million - $40.3 million from 2014-2018 As more and more middle class families integrate mobile media to their everyday lives. In a bid to increase distribution, developers appear to have begun to turn away from the traditional practice of charging for apps up front in favor of a new model that offers basic functionality for free, with paid upgrades driven by in-app purchases. This model, nicknamed "freemium," was represented in 77 percent of the apps for sale in the U.S. App Store in January — November saw that number spike to 92 percent, the data indicates. [4] TalkingData indicates that 39% of users choose casual games as their first game, and that 45% mobile gamers choose casual games as their first paid games. This helps set payment behavior for users, especially in well-known thirdparty iOS channels.
+
+Dali.ME is Black-Squirrel's response to today's media demands: by offering a grouping of media alternatives to their end users: from digital music to console-agnostic subscription mobile games.
+
+The RPG game genre has been a mainstay style of play for Chinese mobile gamers. In 2013, RPG games predominantly consisted of martial art themes. In 2014 we can expect to see RPGs raise the bar in terms of themes and reaching the quality level of PC games. As far as themes, player demand for themes outside of martial arts and Romance of The Three Kingdom will grow to more Western fantasy themes. As far as play styles, we will see the traditional MMO and the ARPG (Joystick-controlled hack-and-slash RPGs) converge and presentation will be more akin to desktop PCs World of Warcraft. Chinese gamers essentially skipped the console gaming era the West went through and jumped straight into free-to-play PC gaming. Mobile users new and old are accustomed to free-to-play payment patterns, particularly with RPG themed games.
+
+
+
+
+
+
+
+
+
+
+[1]
+
+[2]http://www.pocketgamer.biz/asia/news/58833/18-key-trends-from-the-chinese-mobile-games-market/
+
+[3]http://appleinsider.com/articles/13/12/17/top-ios-apps-rake-in-90000-per-day-on-average-in-app-purchases-dominate-sales

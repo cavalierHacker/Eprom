@@ -1,0 +1,63 @@
+Theme Changelog
+--------------------------------------
+
+==> v.1.1.2
+* Fixed: Google Plus in share window.
+* Fixed: Portfolio animation in IE10.
+* Updated: Revo Slider version 4.0.0.
+
++++++ Files and folders Changed +++++
+* /js/rs-plugin/
+* /js/custom.css
+
+
+==> v1.1.1
+* Added: New Twitter OAuth API. Please read Documentation > Twitter Integration and add access to your twitter feed. Update your twitter account data in /plugins/config.php.
+* Fixed: Release filter bug in Firefox. 
+* Fixed: Align bug in stats list.
+* Updated: Revolution slider: Version 2.2.3 Release Date: 14.02.2013.
+* Updated: jQuery to 1.9.1.
+Replaced $.browser.msie in /js/custom.js
+* Updated: NivoSlider to 3.2.0.
+* Updated: Fancybox.
+* Updated: Isotope to 1.5.25.
+* Updated: New music script: MPlayer. 
+Each html files: 
+Removed from <head> section:
+<script src="js/soundmanager/soundmanager2-nodebug-jsmin.js"></script>
+<script src="js/soundmanager/jquery.playable.js"></script>
+<script src="js/soundmanager/jquery.playable.ui.simple.js"></script>
+Added (replaced):
+<script src="js/jquery.mplayer.min.js"></script>
+/js/custom.css
+Removed code line 5 - 26.
+Replaced code under "Sound Manager" section.
+
++++++ Files and folders Changed +++++
+* /css/light.css and dark.css
+Stats list fix and added new rule: 
+.show-ui .ui { display: block !important; }
+
+* /js/rs-plugin/js/*.*
+* /js/soundmanager/*.*
+* /js/custom.js
+* /plugins/tweets.php
+* /plugins/config.php
+
+
+==> v1.1.0
+* Added: Light version. 
+
++++++ Files and folders Changed +++++
+--
+
+
+==> v1.0.1
+* Fixed: Twitter script. 
+
++++++ Files and folders Changed +++++
+* /plugins/tweets.php
+
+
+==> v1.0.0
+* Initial released

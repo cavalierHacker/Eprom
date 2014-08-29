@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Template documentation.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <!-- Body -->
+  <body data-spy="scroll" data-target=".sidenav-sidebar">
+
+  <!-- Navbar
+  ================================================== -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!-- Brand -->
+        <a href="#" class="brand">Eprom HTML</a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
+            <li><a href="http://themes.rascals.eu/switcher/?theme=eprom_html">View demo</a></li>
+            <li class="divider-vertical"></li>
+            <li><a href="http://rascalslabs.ticksy.com">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <div class="row">
+
+      <!-- Sidebar
+      ================================================== -->
+      <div class="span3 sidenav-sidebar">
+        <ul class="nav nav-list sidenav">
+          <li><a href="#welcome"><i class="icon-chevron-right"></i> Welcome</a></li>
+          <li><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
+          <li><a href="#html-structure"><i class="icon-chevron-right"></i> HTML structure</a></li>
+          <li><a href="#pages"><i class="icon-chevron-right"></i> Pages</a></li>
+          <li><a href="#php"><i class="icon-chevron-right"></i> PHP Plugins</a></li>
+          <li><a href="#elements"><i class="icon-chevron-right"></i> Elements</a></li>
+          <li><a href="#twitter"><i class="icon-chevron-right"></i> Twitter integration</a></li>
+          <li><a href="#css"><i class="icon-chevron-right"></i> CSS Files & Structure</a></li>
+          <li><a href="#javascripts"><i class="icon-chevron-right"></i> Javascripts</a></li>
+          <li><a href="#credits"><i class="icon-chevron-right"></i> Credits</a></li>
+          <li><a href="#support"><i class="icon-chevron-right"></i> Support</a></li>
+        </ul>
+      </div>
+
+      <div class="span9">
+
+
+        <!-- Welcome
+        ================================================== -->
+        <section id="welcome">
+          <div class="page-header">
+            <h1>Welcome.</h1>
+          </div>
+          <p class="lead">Thank you for purchasing our theme. Before starting, be sure to have a code editor (we recommend <a href="http://sublimetext.com/2">Sublime Text 2</a>) and some working knowledge of HTML and CSS.<br> 
+            So you can fully enjoy this template you will need a real web server (online or local) to work properly.</p>
+        </section>
+
+
+        <!-- File structure
+        ================================================== -->
+        <section id="file-structure">
+          <div class="page-header">
+            <h1>File structure.</h1>
+          </div>
+          <p class="lead">Within the download you'll find the following file structure and contents, logically grouping common assets and providing.</p>
+          <p>Once downloaded, unzip the compressed folder to see the structure of your theme. You'll see something like this:</p>
+        <pre>
+Eprom/
+├── Assets/
+│   └── Revolution Slider/ - Documentation for Revolution Slider.
+├── Documentation/ - This document.
+├── PSD/ - Photoshop graphics files.
+├── Theme/
+│   ├── Dark/ - Dark version files.
+│   └── Light/ - Light version files.
+└── changelog.txt - All theme changes.</pre>
+
+          <h3>Theme Structure.</h3>
+ <pre>
+Theme/
+├── cache/ - Temporary cache folder for Twitter tweets.
+│   └── tweets.txt - Temporary tweets.
+├── CSS/ - Theme style sheets.
+│   ├── style.css - Main styles.
+│   ├── media-queries.css - Styles for responsive design.
+│   └── fancybox.min.css - Fancybox plugin styles.
+├── img/ - Theme images.
+├── js/ - Javascripts files.
+│   ├── rs-plugin/ - Revolution slider.
+│   ├── soundmanager/ - Soundmanager 2.
+│   ├── custom.js - All Javascript settings & custom scripts.
+│   ├── html5.min.js - HTML5 IE enabling script.
+│   ├── jquery.countdown.js - Countdown for events.
+│   ├── jquery.easing-1.3.min.js - jQuery Easing.
+│   ├── jquery.fancybox-1.3.4.pack.js - jQuery lightbox plugin.
+│   ├── jquery.fitvids.js - jQuery plugin for fluid width video embeds.
+│   ├── jquery.gmap.min.js - jQuery plugin embedding Google Maps into website.
+│   ├── jquery.isotope.min.js - An exquisite jQuery plugin for magical layouts.
+│   ├── jquery.nivo.slider.pack.js - Awesome jQuery slider.
+│   ├── jquery.sharrre-1.3.2.min.js - A plugin for sharing buttons.
+│   ├── jquery.touchSwipe-1.2.5.min.js - jQuery plugin to be used with jQuery on touch input devices such.
+│   ├── jquery.min.js - Latest jQuery libary.
+│   ├── modernizr.custom.js - Modernizr detects HTML5 and CSS3 features in the user’s browser.
+│   ├── respond.min.js - A fast & lightweight polyfill for min/max-width CSS3 Media Queries.
+│   └── selectivizr-and-extra-selectors.min.js - CSS3 pseudo-class and attribute selectors for IE 6-8.
+├── placeholders/ - Placeholders images for sliders, gallery, blog entries, etc.
+├── plugins/ - PHP Scripts.
+│   ├── config.php - Settings for php scripts.
+│   ├── contact-form.php - Contact form script.
+│   └── tweets.php - Twitter script.
+├── 404.html - Error page.
+├── artist.html - Artist page.
+├── artist2.html - Artist version 2.
+├── artists.html - Artists page.
+├── artists2.html - Artists version 2.
+├── blog.html - Blog entries.
+├── blog-single.html - Single post.
+├── contact.html - Contact page with contact form.
+├── elements.html - All elements available in the template.
+├── event.html - Single event.
+├── events.html - Events list.
+├── gallery.html - Gallery page.
+├── gallery-album.html - Single gallery album.
+├── grid.html - Columns layout.
+├── home-fullslider.html - Homepage with fullwidth Nivo slider.
+├── home-masonry.html - Homepage with masonry boxes.
+├── index.html - Homepage with Revolution slider.
+├── release.html - Single release.
+├── release2.html - Single release verion 2.
+├── releases.html - Releases page with filter (4 columns).
+└── releases3.html - Releases page with filter (3 columns).</pre>
+          <p>Please note that all JavaScript plugins require jQuery to be included.</p>
+        </section>
+
+
+        <!-- HTML Files & Structure
+        ================================================== -->
+        <section id="html-structure">
+          <div class="page-header">
+            <h1>HTML structure.</h1>
+          </div>
+
+          <!-- Sub navigation
+          ================================================== -->
+          <div class="tabbable">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#html-basics" data-toggle="tab">Basics</a></li>
+                <li class=""><a href="#html-header" data-toggle="tab">Header</a></li>
+                <li class=""><a href="#html-page-header" data-toggle="tab">Page header</a></li>
+                <li class=""><a href="#html-main-content" data-toggle="tab">Main content</a></li>
+                <li class=""><a href="#html-sidebar" data-toggle="tab">Sidebar</a></li>
+                <li class=""><a href="#html-footer" data-toggle="tab">Footer</a></li>
+                <li class=""><a href="#html-slider" data-toggle="tab">Slider</a></li>
+              </ul>
+              <div class="tab-content">
+
+                <!-- ======================== -->
+                <div class="tab-pane active" id="html-basics">
+                  <h3>Basics.</h3>
+                  <p>Section <code>body</code> Section contains the class with the name of current page. You are using this class to identify the current page and class name contains the prefix "page-". All the pages have been divided into five "main" sections: <code>#header</code>, <code>#page-header</code>, <code>#main-content</code>, <code>#footer-top</code>, <code>#footer</code>. <code>.container</code> determines the page width and also centralize it. You can adjust this width from <strong>css/style.css</strong> file.</p>
+                  <p>Simplified example of fullwidth page structure:</p>
+                  <pre class="prettyprint linenums">
+&lt;!-- header --&gt;
+&lt;header id=&quot;header&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      [HEADER_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/header&gt;
+&lt;!-- /header --&gt;
+
+&lt;!-- page header --&gt;
+&lt;section id=&quot;page-header&quot;&gt;
+  &lt;div class=&quot;container clearfix&quot;&gt;
+    [PAGE_HEADER_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /page header --&gt;
+
+&lt;!-- content --&gt;
+&lt;section id=&quot;main-content&quot; class=&quot;container clearfix&quot;&gt;
+  [CONTENT_HERE]
+&lt;/section&gt;
+&lt;!-- /content --&gt;
+
+&lt;!-- footer-top --&gt;
+&lt;section id=&quot;footer-top&quot;&gt;
+  &lt;div class=&quot;container clearfix&quot;&gt;
+    [FOOTER_TOP_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /footer-top --&gt;
+
+&lt;!-- footer --&gt;
+&lt;footer id=&quot;footer&quot; class=&quot;clearfix&quot;&gt;
+  &lt;section class=&quot;container clearfix&quot;&gt;
+    [FOOTER_CONTENT_HERE]
+  &lt;/section&gt;
+&lt;/footer&gt;
+&lt;!-- /footer --&gt;
+                  </pre>          
+                   <p>You can also split main content into two parts, which allow you to have a sidebar. You can see it by opening <strong>blog.html</strong> or <strong>blog-single.html</strong>.</p>
+                   <pre class="prettyprint linenums">
+&lt;!-- header --&gt;
+&lt;header id=&quot;header&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      [HEADER_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/header&gt;
+&lt;!-- /header --&gt;
+
+&lt;!-- page header --&gt;
+&lt;section id=&quot;page-header&quot;&gt;
+  &lt;div class=&quot;container clearfix&quot;&gt;
+    [PAGE_HEADER_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /page header --&gt;
+
+&lt;!-- content --&gt;
+&lt;section id=&quot;main-content&quot; class=&quot;container clearfix&quot;&gt;
+
+  &lt;!-- main --&gt;
+  &lt;section id=&quot;main&quot;&gt;
+    [MAIN_CONTENT_HERE]
+  &lt;/section&gt;
+  &lt;!-- /main --&gt;
+
+  &lt;!-- sidebar --&gt;
+  &lt;aside id=&quot;sidebar&quot;&gt;
+      [SIDEBAR_CONTENT_HERE]
+  &lt;/aside&gt;
+  &lt;!-- /sidebar --&gt;
+
+&lt;/section&gt;
+&lt;!-- /content --&gt;
+
+&lt;!-- footer-top --&gt;
+&lt;section id=&quot;footer-top&quot;&gt;
+  &lt;div class=&quot;container clearfix&quot;&gt;
+    [FOOTER_TOP_CONTENT_HERE]
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /footer-top --&gt;
+
+&lt;!-- footer --&gt;
+&lt;footer id=&quot;footer&quot; class=&quot;clearfix&quot;&gt;
+  &lt;section class=&quot;container clearfix&quot;&gt;
+    [FOOTER_CONTENT_HERE]
+  &lt;/section&gt;
+&lt;/footer&gt;
+&lt;!-- /footer --&gt;
+                  </pre>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-header">
+                  <h3>Header.</h3>
+                  <h5>Logo.</h5>
+                  <p>If the logo height is more than 86px, you may need to change <code>#header</code> and <code>#logo</code> height settings from the <strong>css/style.css</strong> file.</p>
+                  <h5>Main navigation.</h5>
+                  <p>Navigation is just basic unordered list and based on this list JS script generates responsive navigation element <code>select.responsive-nav</code> and places in <code>nav#main-nav</code>. And <code>.current</code> obviously indicates the active page.</p>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-page-header">
+                  <h3>Page header.</h3>
+                  <p>You can place your page title, subtitle, share buttons, masonry boxes and much more. Check all pages and see the ability to add elements in this section.</p>
+                  <p>A simple example.</p>
+<pre class="prettyprint linenums">
+&lt;!-- page header --&gt;
+&lt;section id=&quot;page-header&quot;&gt;
+  &lt;div class=&quot;container clearfix&quot;&gt;
+    &lt;hgroup&gt;
+      &lt;h1 class=&quot;page-title&quot;&gt;Elements&lt;/h1&gt;
+      &lt;h2 class=&quot;page-subtitle&quot;&gt;Lorem ipsum dolor sit amet.&lt;/h2&gt;
+    &lt;/hgroup&gt;
+    &lt;!-- share buttons --&gt;
+    &lt;div id=&quot;share-wrap&quot;&gt;
+      &lt;div id=&quot;share&quot; data-url=&quot;http://CURRENT_PAGE_URL&quot; data-text=&quot;CURRENT_PAGE_TITLE.&quot; data-title=&quot;share&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- /share buttons --&gt;
+    &lt;hr&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /page header --&gt;
+</pre>
+                  <p>Please note attribute <code>data-url</code> must have the full address of the current page.</p>
+                  <p>Page header can contain a unique background. If you want to create your own background, open the file <strong>css/style.css</strong> and go to "Page header", add a CSS rule </p>
+        <pre>.page-YOUR-UNIQUE-PAGE-NAME #page-header { background: #000 url(../placeholders/blog-bg.jpg) center center no-repeat; }</pre>
+                  <p>Please note background is not available on mobile devices. You can change this in <strong>css/media-queries.css</strong> but keep in mind that the backgrounds are large and may slow down the loading of the page.</p>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-main-content">
+                  <h3>Main content.</h3>
+                  <h4>Columns.</h4>
+                  <p>You can easily divide your content between columns by using these classes:</p>
+                  <ol>
+                    <li><code>col-1-2</code></li>
+                    <li><code>col-1-3</code></li>
+                    <li><code>col-2-3</code></li>
+                    <li><code>col-1-4</code></li>
+                    <li><code>col-3-4</code></li>
+                  </ol>
+                  <p>Always use a class <code>.last</code> in the last column in each row, also put div with class <code>.clear</code> to clear all floats. For example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- column --&gt;
+&lt;div class=&quot;col-1-2&quot;&gt;
+  
+  [CONTENT] 
+
+&lt;/div&gt;
+&lt;!-- /column --&gt;
+
+&lt;!-- last column --&gt;
+&lt;div class=&quot;col-1-2 last&quot;&gt;
+  
+  [CONTENT] 
+
+&lt;/div&gt;
+&lt;!-- /last column --&gt;
+
+&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+</pre>
+                  <p>You can check all sample columns from <strong>grid.html</strong> file.</p>
+                  <hr>
+                  <h4>Boxes.</h4>
+                  <p>In page content you can use boxes, when you hover the mouse on the box will be shown a white border at the top. You can disable hover effect by adding <code>.default</code> class to <code>.boxes</code> section.</p>
+                  <p>For example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- boxes --&gt;
+&lt;section class=&quot;boxes&quot;&gt;
+
+  &lt;!-- box --&gt;
+  &lt;div class=&quot;box col-1-3&quot;&gt;
+    
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /box --&gt;
+
+  &lt;!-- box --&gt;
+  &lt;div class=&quot;box col-1-3&quot;&gt;
+
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /box --&gt;
+
+  &lt;!-- box --&gt;
+  &lt;div class=&quot;box col-1-3 last&quot;&gt;
+
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /box --&gt;
+
+&lt;/section&gt;
+&lt;!-- /boxes --&gt;
+</pre>            <h4>Masonry boxes.</h4>
+                  <p>In the main content or in page header you can put the masonry boxes grid. In the boxes can be placed images, videos, sliders, and text. Each box must have a class defining the height and width. Below is a list of available classes.</p>
+                  <ol>
+                    <li><code>.width-1-4</code> - Width 233px (1/4 of fullwidth).</li>
+                    <li><code>.height-1-4</code> - Height 233px.</li>
+                    <li><code>.width-1-2</code> - Width 468px (1/2 of fullwidth).</li>
+                    <li><code>.height-1-2</code> - Height 468px.</li>
+                    <li><code>.width-3-4</code> - Width 703px (3/4 of fullwidth).</li>
+                    <li><code>.height-3-4</code> - Height 703px.</li>
+                    <li><code>.media</code> - Special class for media embeds.</li>
+                    <li><code>.text-box</code> - Text box class (example included in artist.html file).</li>
+                  </ol>
+                  <p>For example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- masonry boxes --&gt;
+&lt;div class=&quot;masonry-wrap clearfix&quot;&gt;
+  &lt;!-- 1/2 --&gt;
+  &lt;div class=&quot;masonry width-1-2 height-1-2&quot;&gt;
+    
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /1/2 --&gt;
+
+  &lt;!-- 1/4 --&gt;
+  &lt;div class=&quot;masonry width-1-4 height-1-4&quot;&gt;
+    
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /1/4 --&gt;
+
+  &lt;!-- 1/4 --&gt;
+  &lt;div class=&quot;masonry width-1-4 height-1-4&quot;&gt;
+
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /1/4 --&gt;
+
+  &lt;!-- 1/2 width and 1/4 height --&gt;
+  &lt;div class=&quot;masonry width-1-2 height-1-4&quot;&gt;
+
+    [CONTENT]
+
+  &lt;/div&gt;
+  &lt;!-- /1/2 width and 1/4 height --&gt;
+
+&lt;/div&gt;
+&lt;!-- /masonry boxes --&gt;
+</pre>
+                  <p>You can check sample boxes from <strong>gallery.html</strong> file.</p>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-sidebar">
+                  <h3>Sidebar.</h3>
+                  <h4>Widgets.</h4>
+                  <p>Basic sidebar widget template:</p>
+<pre class="prettyprint linenums">
+&lt;!--widget --&gt;
+&lt;div class=&quot;widget widget_[WIDGET_CLASS]&quot;&gt;
+
+  &lt;h3 class=&quot;widget-title&quot;&gt;[TITLE]&lt;/h3&gt;
+  
+  [CONTENT]
+
+&lt;/div&gt;
+&lt;!-- /widget --&gt;
+</pre>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-footer">
+                  <h3>Footer.</h3>
+                  <h4>Widgets.</h4>
+                  <p>You can use the same column classes in footer and footer top just like in the content area.</p>
+                  <p>Below is a list of available social buttons:</p>
+                  <ol>
+                    <li><code>.twitter</code></li>
+                    <li><code>.facebook</code></li>
+                    <li><code>.googleplus</code></li>
+                    <li><code>.youtube</code></li>
+                    <li><code>.vimeo</code></li>
+                    <li><code>.soundcloud</code></li>
+                    <li><code>.myspace</code></li>
+                    <li><code>.digg</code></li>
+                    <li><code>.skype</code></li>
+                    <li><code>.lastfm</code></li>
+                  </ol>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="html-slider">
+                  <h3>Slider.</h3>
+                  <p>In this template, you have two sliders Nivo Slider and Slider Revolution. Nivo Slider can also be placed in the main content, page header and masonry boxes and Slider Revolution was used only on the homepage.</p>
+                  <h5>Nivo Slider.</h5>
+                  <p>Slider put in this way and you can find additional details on the plugin page <a href="http://nivo.dev7studios.com">here</a>.</p>
+<pre class="prettyprint linenums">
+&lt;!-- nivo slider --&gt;
+&lt;div class=&quot;nivo-slider&quot;&gt;
+
+  &lt;!-- Image with link --&gt;
+    &lt;a href=&quot;[PAGE_LINK]&quot;&gt;&lt;img src=&quot;[IMAGE_LOCATION]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+
+    &lt;!-- Image with link and caption --&gt;
+    &lt;a href=&quot;[PAGE_LINK]&quot;&gt;&lt;img src=&quot;[IMAGE_LOCATION]&quot; alt=&quot;&quot; title=&quot;[CAPTION]&quot; /&gt;&lt;/a&gt;
+
+    &lt;!-- Only image with caption --&gt;
+    &lt;img src=&quot;[IMAGE_LOCATION]&quot; alt=&quot;&quot; title=&quot;[CAPTION]&quot; /&gt;
+    
+&lt;/div&gt;
+&lt;!-- /nivo slider --&gt;
+</pre>
+
+                  <h5>Slider Revolution.</h5>
+                  <p>Slider is located just on <strong>index.html</strong> page. Manual are in the folder: <strong>Eprom/Assets/Revolution Slider/</strong>.</p>
+                </div>
+
+              </div>
+          </div>
+        </section>
+
+        <!-- Pages
+        ================================================== -->
+        <section id="pages">
+          <div class="page-header">
+            <h1>Pages.</h1>
+          </div>
+
+          <!-- Sub navigation
+          ================================================== -->
+          <div class="tabbable">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#pages-blog" data-toggle="tab">Blog</a></li>
+                <li><a href="#pages-portfolio" data-toggle="tab">Portfolio</a></li>
+                <li><a href="#pages-events" data-toggle="tab">Events</a></li>
+                <li><a href="#pages-contact" data-toggle="tab">Contact</a></li>
+              </ul>
+              <div class="tab-content">
+
+                <!-- ======================== -->
+                <div class="tab-pane active" id="pages-blog">
+                  <h3>Blog.</h3>
+                  <h5>Blog entries.</h5>
+                  <p>All blog post entries have been divided in two parts: <code>.entry-heading</code> and <code>.entry-meta</code>.</p>
+<pre class="prettyprint linenums">
+&lt;!-- entry --&gt;
+&lt;article class=&quot;entry&quot;&gt;
+
+  &lt;!-- entry heading --&gt;
+  &lt;h2 class=&quot;entry-heading&quot;&gt;&lt;a href=&quot;[PAGE_LINK]&quot;&gt;[POST TITLE]&lt;/a&gt;&lt;/h2&gt;
+  
+  [CONTENT]
+
+  &lt;!-- entry meta --&gt;
+  &lt;ul class=&quot;entry-meta none&quot;&gt;
+    
+    [META_INFO]
+
+  &lt;/ul&gt;
+  &lt;!-- /entry meta --&gt;
+
+&lt;/article&gt;
+&lt;!-- /entry --&gt;
+</pre>            
+                  <p>Please note <code>.none</code> class clears the default list styles.</p>
+                  <h5>Single post.</h5>
+                  <p>The page has a very similar structure to "Blog entries".</p>
+<pre class="prettyprint linenums">
+&lt;!-- entry --&gt;
+&lt;article class=&quot;entry&quot;&gt;
+
+  &lt;!-- entry heading --&gt;
+  &lt;h1 class=&quot;entry-heading&quot;&gt;[POST TITLE]&lt;/h1&gt;
+    
+  [CONTENT]
+
+&lt;/article&gt;
+&lt;!-- /entry --&gt;
+</pre>            
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="pages-portfolio">
+                  <h3>Portfolio.</h3>
+                  <h5>Portfolio filter.</h5>
+                  <p>All projects are placed in <code>&lt;section class=".items .portfolio"&gt;</code> and every project is a single <code>&lt;article&gt;</code>. Every project has <code>data-categories</code> and <code>data-tags</code> attributes which will be used in filtering them. A single project can has multiple categories and tags and they need to be separated with space. There isn't any naming rules but you should use only lowercase and single word (use dash to replace spaces) names to avoid any possible issues. And you don't need to use class <code>.last</code> with portfolio items, like usually with columns.</p>
+
+                  <p>Basic example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- item --&gt;
+&lt;article class=&quot;col-1-4&quot; data-categories=&quot;[CATEGORIES]&quot; data-tags=&quot;[TAGS]&quot;&gt;
+
+  &lt;!-- image --&gt;
+  &lt;a href=&quot;[PROJECT_LINK]&quot;&gt;&lt;img src=&quot;[IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+
+  &lt;!-- item footer --&gt;
+  &lt;footer&gt;
+    &lt;h2&gt;&lt;a href=&quot;[PROJECT_LINK]&quot;&gt; [TITLE] &lt;/a&gt;&lt;/h2&gt;
+    &lt;div class=&quot;cat&quot;&gt; [CATEGORIES] &lt;/div&gt;
+  &lt;/footer&gt;
+  &lt;!-- /item footer --&gt;
+  
+&lt;/article&gt;
+&lt;!-- /item --&gt;
+</pre>
+                  <p>You can use various effects for portfolio images, details can be found in the "Elements" section or open <strong>/elements.html</strong> file.</p>
+                  <p>Example of category filter:</p>
+<pre class="prettyprint linenums">
+&lt;!-- cat filter --&gt;
+&lt;ul id=&quot;cat-filter&quot;&gt;
+  
+  &lt;li&gt;&lt;a data-categories=&quot;*&quot;&gt;All&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a data-categories=&quot;new&quot;&gt;New Tracks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a data-categories=&quot;free&quot;&gt;Free!&lt;/a&gt;&lt;/li&gt;
+  [...]
+
+&lt;/ul&gt;
+&lt;!-- /cat filter --&gt;
+</pre>
+                  <p>Example of tag filter:</p>
+<pre class="prettyprint linenums">
+&lt;!-- tags filter --&gt;
+&lt;ul id=&quot;tag-filter&quot;&gt;
+
+  &lt;li&gt;&lt;a data-tags=&quot;*&quot;&gt;All Artists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a data-tags=&quot;dj-envato&quot;&gt;DJ Envato&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a data-tags=&quot;dj-graphicriver&quot;&gt;DJ Graphicriver&lt;/a&gt;&lt;/li&gt;
+  [...]
+  
+&lt;/ul&gt;
+&lt;!-- /tags filter --&gt;
+</pre>
+
+                  <p>Star selector (*) is used to select all items. Category filter is located in <code>#page-header</code> and tag filter is in <code>#main-content section</code>.</p>
+
+                  <h5>Single project.</h5>
+                  <p>Single project can contain any content (images, music, sliders, videos etc.). In demo it has images but there isn't any restrictions what you can or what you can't use in it. Single project is divided into two columns, the left contains project details and navigaion and right column can contain any content. You do not have any restrictions if you want you can swap the columns.</p>
+
+                  <p>Basic example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- left --&gt;
+&lt;article class=&quot;col-1-3&quot;&gt;
+
+  &lt;!-- project title --&gt;
+  &lt;h2 class=&quot;heading-icon deck&quot;&gt;[PROJECT_TITLE]&lt;/h2&gt;
+
+  &lt;!-- details list --&gt;
+  &lt;ul class=&quot;details none&quot;&gt;
+    &lt;li&gt;
+      &lt;span&gt;Date&lt;/span&gt;
+      &lt;div&gt;2012-09-03&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;span&gt;Label&lt;/span&gt;
+      &lt;div&gt;Eprom&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;span&gt;Catalog&lt;/span&gt;
+      &lt;div&gt;EPROM22&lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;span&gt;Genres&lt;/span&gt;
+      &lt;div&gt;&lt;a href=&quot;#&quot;&gt;UK Funky&lt;/a&gt;&lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;!-- /details list --&gt;
+
+  &lt;!-- clear fix --&gt;
+  &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- single navigation --&gt;
+  &lt;div id=&quot;single-nav&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;nav-prev&quot;&gt;&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;nav-next&quot;&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;!-- /single navigation --&gt;
+
+&lt;/article&gt;
+&lt;!-- /left --&gt;
+&lt;!-- right --&gt;
+&lt;article class=&quot;col-2-3 last&quot;&gt;
+  
+  [CONTENT]
+
+&lt;/article&gt;
+&lt;!-- /right --&gt;
+</pre>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="pages-events">
+                  <h3>Events.</h3>
+                  <h5>Events list.</h5>
+                  <p>Here is a list of events separated by dates, in <code>#page-header</code> is a counter that displays the number of events. Counter must set manually by editing <code>data-number</code> attribute.</p>
+
+                  <p>Basic example:</p>
+<pre class="prettyprint linenums">
+&lt;!-- events list --&gt;
+&lt;ul class=&quot;none events-list&quot;&gt;
+
+  &lt;!-- event --&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;[PAGE_LINK]&quot;&gt;
+      &lt;span class=&quot;date&quot;&gt; [EVENT_DATE] &lt;/span&gt;
+      &lt;span class=&quot;cover&quot;&gt;&lt;img src=&quot;[EVENT_IMAGE]&quot; alt=&quot;&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;title&quot;&gt; [TITLE] &lt;span class=&quot;details&quot;&gt; [DETAILS] &lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;plus-button&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;!-- /event --&gt;
+
+  &lt;!-- event --&gt;
+  &lt;li&gt;
+    &lt;a href=&quot;[PAGE_LINK]&quot;&gt;
+      &lt;span class=&quot;date&quot;&gt; [EVENT_DATE] &lt;/span&gt;
+      &lt;span class=&quot;cover&quot;&gt;&lt;img src=&quot;[EVENT_IMAGE]&quot; alt=&quot;&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;title&quot;&gt; [TITLE] &lt;span class=&quot;details&quot;&gt; [DETAILS] &lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;plus-button&quot;&gt;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/li&gt;
+  &lt;!-- /event --&gt;
+  [...]
+
+&lt;/ul&gt;
+&lt;!-- /events list --&gt;
+</pre>            <h5>Single event.</h5>
+                  <p>The event has the same layout as portfolio project, but you can also add big countdown in <code>#page-header</code>, for example:</p>
+<pre class="prettyprint linenums">
+&lt;div class=&quot;header-content header-countdown-wrap&quot;&gt;
+  &lt;!-- countdown --&gt;
+  &lt;div class=&quot;header-countdown&quot; data-event-date=&quot;2012/12/18 10:00:00&quot;&gt;
+    &lt;div class=&quot;days&quot; data-label=&quot;Days&quot;&gt;000&lt;/div&gt;
+    &lt;div class=&quot;hours&quot; data-label=&quot;Hours&quot;&gt;000&lt;/div&gt;
+    &lt;div class=&quot;minutes&quot; data-label=&quot;Minutes&quot;&gt;000&lt;/div&gt;
+    &lt;div class=&quot;seconds&quot; data-label=&quot;Seconds&quot;&gt;000&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- /countdown --&gt;
+&lt;/div&gt;
+</pre>
+                </div>
+
+                <!-- ======================== -->
+                <div class="tab-pane" id="pages-contact">
+                  <h3>Conatct.</h3>
+                  <p>Setting up the contact form is really simple task. All you need to do is to open <strong>plugins/config.php</strong> file and replace <code>$your_email_address</code> value with your own one and that's it!</p>
+                </div>
+
+              </div>
+          </div>
+        </section>
+
+
+        <!-- PHP Plugins
+        ================================================== -->
+        <section id="php">
+          <div class="page-header">
+            <h1>PHP Plugins.</h1>
+          </div>
+          <p>Just like with the contact form, all the php scripts settings can be be changed from the <strong>plugins/config.php</strong> file. All settings should be pretty self-explanatory.
+Latest Tweets will be cached for one hour at the time to prevent excessive downloading (however cache time can be also changed). In case cache files for same reason won't appear in <strong>/cache</strong> folder, try to chmod cache folder to 755 or 777. If you don't know how to do that, here's an excellent guide: <a href="http://www.phpjunkyard.com/tutorials/ftp-chmod-tutorial.php">CHMOD Tutorial</a>.</p>
+        </section>
+
+
+        <!-- Elements
+        ================================================== -->
+        <section id="elements">
+          <div class="page-header">
+            <h1>Elements.</h1>
+          </div>
+          <p>All of these elements can be found from the <strong>elements.html</strong> file.</p>
+          <h4>Images.</h4>
+          <h5>Thumb slide.</h5>
+<pre class="prettyprint linenums">
+&lt;!-- thumb slide --&gt;
+&lt;a href=&quot;[PAGE_LINK]&quot; class=&quot;thumb-slide&quot;&gt;
+  &lt;span class=&quot;thumbs-wrap&quot;&gt;
+    &lt;img src=&quot;[IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+    &lt;img src=&quot;[IMAGE_2]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;/span&gt;
+&lt;/a&gt;
+&lt;!-- /thumb slide --&gt;
+</pre>    
+          <h5>Thumb icon.</h5>
+<pre class="prettyprint linenums">
+&lt;!-- thumb icon --&gt;
+  &lt;a href=&quot;#&quot; class=&quot;thumb-icon&quot;&gt;
+    &lt;img src=&quot;[IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+    &lt;span class=&quot;icon soundcloud&quot;&gt;&lt;/span&gt;
+  &lt;/a&gt;
+&lt;!-- /thumb icon --&gt;
+</pre>
+          <p>Available icons:</p>
+          <ol>
+            <li><code>.soundcloud</code></li>
+            <li><code>.view</code></li>
+            <li><code>.plus</code></li>
+          </ol>
+          <p>For the above images you can also add badget, tooltip and lightbox.</p>
+          <p>Available badgets:</p>
+          <ol>
+            <li><code>.new</code></li>
+            <li><code>.free</code></li>
+          </ol>
+<pre class="prettyprint linenums">
+&lt;!-- thumb slide --&gt;
+&lt;a href=&quot;[PAGE_LINK]&quot; class=&quot;thumb-slide&quot;&gt;
+  &lt;span class=&quot;badge free&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;thumbs-wrap&quot;&gt;
+    &lt;img src=&quot;[IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+    &lt;img src=&quot;[IMAGE_2]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;/span&gt;
+&lt;/a&gt;
+&lt;!-- /thumb slide --&gt;
+</pre>
+          <p>You can add one badge per image.</p>
+          <h5>Tooltip.</h5>
+<pre class="prettyprint linenums">
+&lt;!-- thumb icon with tooltip --&gt;
+&lt;a href=&quot;#&quot; class=&quot;thumb-icon tip aligncenter&quot; data-tip-title=&quot;[TOOLTIP_TITLE]&quot; data-tip-desc=&quot;[TOOLTIP_TEXT]&quot;&gt;
+  &lt;img src=&quot;[IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+  &lt;span class=&quot;icon soundcloud&quot;&gt;&lt;/span&gt;
+&lt;/a&gt;
+&lt;!-- /thumb icon with tooltip --&gt;
+</pre>    
+          <h5>Lightbox.</h5>
+<pre class="prettyprint linenums">
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox aligncenter&quot;&gt;
+  &lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;
+&lt;/a&gt;
+</pre>
+          <p>Lightbox with iframe.</p>
+<pre class="prettyprint linenums">
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;mediabox aligncenter&quot; data-width=&quot;auto&quot; data-height=&quot;200&quot;&gt;
+  [IFRAME]
+&lt;/a&gt;
+</pre>
+          <p>Image gallery.</p>
+<pre class="prettyprint linenums">
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox&quot; data-group=&quot;[GROUP_NAME]&quot;&gt;&lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox&quot; data-group=&quot;[GROUP_NAME]&quot;&gt;&lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox&quot; data-group=&quot;[GROUP_NAME]&quot;&gt;&lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox&quot; data-group=&quot;[GROUP_NAME]&quot;&gt;&lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;[FULLSIZE_IMAGE]&quot; class=&quot;imagebox&quot; data-group=&quot;[GROUP_NAME]&quot;&gt;&lt;img src=&quot;[THUMB_IMAGE]&quot; alt=&quot;&quot; title=&quot;&quot; /&gt;&lt;/a&gt;
+[...]
+</pre>
+
+          <hr>
+          <h4>Music players.</h4>
+<pre class="prettyprint linenums">
+&lt;!-- Simple player --&gt;
+&lt;div class=&quot;track playable&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;
+
+&lt;!-- Extended player --&gt;
+&lt;div class=&quot;ext-playable&quot;&gt;
+  &lt;!-- MP3 Link --&gt;
+  &lt;div class=&quot;track playable&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;
+  &lt;!-- player buttons --&gt;
+  &lt;a href=&quot;#&quot; class=&quot;player-button&quot;&gt;download&lt;/a&gt;
+  &lt;a href=&quot;#&quot; class=&quot;player-button&quot;&gt;buy on beatport&lt;/a&gt;
+  &lt;!-- player buttons --&gt;
+&lt;/div&gt;
+
+&lt;!-- Simple playlist --&gt;
+&lt;ol class=&quot;playlist&quot;&gt;
+  &lt;li&gt;&lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;&lt;/li&gt;
+  [...]
+&lt;/ol&gt;
+
+&lt;!-- Extended playlist --&gt;
+&lt;ol class=&quot;playlist&quot;&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;
+    &lt;div class=&quot;playlist-details&quot;&gt;[CAPTION]&lt;/div&gt;
+    &lt;a href=&quot;#&quot; class=&quot;playlist-button&quot;&gt;Buy&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;
+    &lt;div class=&quot;playlist-details&quot;&gt;[CAPTION]&lt;/div&gt;
+    &lt;a href=&quot;#&quot; class=&quot;playlist-button&quot;&gt;Buy&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;track&quot; data-url=&quot;[MP3_LINK]&quot;&gt;[TRACK_TITLE]&lt;/div&gt;
+    &lt;div class=&quot;playlist-details&quot;&gt;[CAPTION]&lt;/div&gt;
+    &lt;a href=&quot;#&quot; class=&quot;playlist-button&quot;&gt;Buy&lt;/a&gt;
+  &lt;/li&gt;
+  [...]
+&lt;/ol&gt;
+</pre>
+          <p>You can add <code>.autostart</code> class to the list or player when the page is loaded player will play.</p>
+          <hr>
+          <h4>Stats list.</h4>
+          <p>List at the same time displays six statistic selected at random. Statistics can be only numbers.</p>
+<pre class="prettyprint linenums">
+&lt;!-- Stats list --&gt;
+&lt;ul class=&quot;stats&quot; data-timer=&quot;10000&quot;&gt;
+  &lt;!-- stat --&gt;
+  &lt;li&gt;
+    &lt;span class=&quot;stat-value&quot;&gt;[NUMBER_VALUE]&lt;/span&gt; 
+    &lt;span class=&quot;stat-name&quot;&gt;[NAME]&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;!-- /stat --&gt;
+  &lt;!-- stat --&gt;
+  &lt;li&gt;
+    &lt;span class=&quot;stat-value&quot;&gt;[NUMBER_VALUE]&lt;/span&gt; 
+    &lt;span class=&quot;stat-name&quot;&gt;[NAME]&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;!-- /stat --&gt;
+  &lt;!-- stat --&gt;
+  &lt;li&gt;
+    &lt;span class=&quot;stat-value&quot;&gt;[NUMBER_VALUE]&lt;/span&gt; 
+    &lt;span class=&quot;stat-name&quot;&gt;[NAME]&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;!-- /stat --&gt;
+  [...]
+&lt;/ul&gt;
+&lt;!-- /Stats list --&gt;
+</pre>
+        </section>
+
+
+        <!-- Twitter Integration
+        ================================================== -->
+        <section id="twitter">
+          <div class="page-header">
+            <h1>Twitter integration.</h1>
+          </div>
+          <h3>Step 1: Sign in to Twitter.</h3>
+          <p>Sign in to <a href="http://www.twitter.com/">Twitter</a>. If you don’t already have a Twitter account, you can sign up at the Twitter home page to create one.</p>
+
+          <h3>Step 2: Create your Twitter Application.</h3>
+          <p>a. After you sign in, go to <a href="http://twitter.com/apps/new">application creation page</a>. Be sure to fill in your application’s name, a description about your application and your site URL in the WebSite field. In the Callback URL field, leave empty. This tells your app to return to this location after authenticating.</p>
+          <p>b. Read and agree to Twitter’s "Developer Rules Of The Road". Check the box next to "Yes, I agree".</p>
+          <p>c. In the space below, enter the characters you see in the CAPTCHA and click on the "Create your Twitter application" button.</p>
+          <p>
+            <img src="photos/twitter-new-app.png" alt="Create new twitter app" class="img-polaroid"/>
+          </p>
+          <p>
+            d. If the form is filled well you should see your Twitter app’s detail page. Now you need to generate your access token. 
+            <br>Click on the <strong>"Create my access token"</strong>.
+          </p>
+          <p>
+            <img src="photos/twitter-generate-access.png" alt="Generate access token" class="img-polaroid"/>
+          </p>
+          <p>
+            e. Your tokens should be generated if they are not visible on the page, wait a moment and click on the "Details" tab again.
+          </p>
+          <p> f. Now you have the data needed to properly display the tweets in your template. </p>
+          <p>
+            <img src="photos/twitter-tokens.png" alt="Access data" class="img-polaroid"/>
+          </p>
+          <p>To display tweets in this theme you need:</p>
+          <ol>
+            <li>Twitter account.</li>
+            <li>Twitter application.</li>
+            <li><strong>Twitter username.</strong></li>
+            <li><strong>Consumer key.</strong></li>
+            <li><strong>Consumer secret.</strong></li>
+            <li><strong>Access token.</strong></li>
+            <li><strong>Access token secret.</strong></li>
+          </ol>
+        </section>
+
+
+         <!-- CSS Files & Structure
+        ================================================== -->
+        <section id="css">
+          <div class="page-header">
+            <h1>CSS Files & Structure.</h1>
+          </div>
+          <p>Most CSS files are located in css folder:</p>
+          <ol>
+            <li><strong>style.css</strong> - Main stylesheet.</li>
+            <li><strong>media-queries.css</strong> - Styles for responsive design.</li>
+            <li><strong>fancybox.min.css</strong> - Fancybox plugin stylesheet.</li>
+          </ol>
+          <p>Style for Slider Revolution is located in <strong>/js/rs-plugin/css/settings.css</strong></p>
+        </section>
+
+
+        <!-- Javascripts
+        ================================================== -->
+        <section id="javascripts">
+          <div class="page-header">
+            <h1>Javascripts.</h1>
+          </div>
+          <p>All Javascript files are located in <strong>/js</strong> folder. By default theme uses minified version of the all scripts to reduce page loading times and to save your site bandwidth. All used JavaScript scripts can be found in HEAD section of every page.</p>
+          <ol>
+            <li><strong>jquery-1.7.1.min.js</strong> - JavaScript Library.</li>     
+            <li><strong>selectivizr-and-extra-selectors-min.js</strong> - CSS3 pseudo-class and attribute selectors for IE 6-8.</li>     
+            <li><strong>respond.min.js</strong> - A fast & lightweight polyfill for min/max-width CSS3 Media Queries.</li>
+            <li><strong>jquery.easing-1.3.min.js</strong> - More easing options for sliders.</li>
+            <li><strong>jquery.fancybox-1.3.4.pack.js</strong> - Fancy lightbox alternative.</li>
+            <li><strong>jquery.nivo.slider.pack.js</strong> - Nivo slider.</li>
+            <li><strong>jquery.themepunch.revolution.min.js</strong> - Revolution slider.</li>
+            <li><strong>jquery.themepunch.plugins.min.js</strong> - Revolution slider.</li>
+            <li><strong>jquery.isotope.min.js</strong> - An exquisite jQuery plugin for magical layouts.</li>
+            <li><strong>soundmanager2-nodebug-jsmin.js</strong> - Sound Manager 2.</li>
+            <li><strong>jquery.playable.js</strong> - jQuery playable for Sound Manager.</li>
+            <li><strong>jquery.playable.ui.simple.js</strong> - UI for playable script.</li>
+            <li><strong>jquery.gmap.min.js</strong> - jQuery plugin embedding Google Maps into website</li>
+            <li><strong>jquery.sharrre-1.3.2.min.js</strong> - jQuery plugin for sharing buttons.</li>
+            <li><strong>jquery.fitvids.js</strong> - jQuery plugin for fluid width video embeds.</li>
+            <li><strong>jquery.countdown.js</strong> - Countdown plugin.</li>
+            <li><strong>modernizr.custom.js</strong> - Modernizr (custom build) detects HTML5 and CSS3 features in the user’s browser.</li>
+            <li><strong>jquery.touchSwipe-1.2.5.min.js</strong> -  jQuery plugin to be used with jQuery on touch input devices such.</li>
+            <li><strong>custom.js</strong> - All Javascript settings and custom scripts.</li>
+          </ol>
+          <hr>
+          <h3>Custom scripts.</h3>
+          <p>If you need to customize any functions for any reason, all of your theme's jQuery functions are located in a file called <strong>js/custom.js</strong>. Below is a simple list where you can find every section with ease from <strong>custom.js</strong> file.</p>
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Line</th>
+                <th>Function name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>5</td><td>Init Sound Manager</td></tr>
+              <tr><td>23</td><td>Custom Functions</td></tr><tr><td>27</td><td>Detect Touch Device</td></tr>
+              <tr><td>40</td><td>Nivo Slider</td></tr>
+              <tr><td>79</td><td>Slider Revolution</td></tr>
+              <tr><td>103</td><td>Masonry Boxes</td></tr>
+              <tr><td>124</td><td>Sound Manager</td></tr>
+              <tr><td>180</td><td>Full Player</td></tr>
+              <tr><td>253</td><td>Fancybox (Lightbox)</td></tr>
+              <tr><td>325</td><td>Countdown</td></tr>
+              <tr><td>361</td><td>Tooltip</td></tr>
+              <tr><td>421</td><td>Thumb Slider</td></tr>
+              <tr><td>645</td><td>Stats</td></tr>
+              <tr><td>758</td><td>Number Counter</td></tr>
+              <tr><td>797</td><td>Main Navigation</td></tr>
+              <tr><td>842</td><td>Sticky Footer</td></tr>
+              <tr><td>851</td><td>Twitter feed</td></tr>
+              <tr><td>891</td><td>Items Filter (Portfolio)</td></tr>
+              <tr><td>963</td><td>Flexible videos</td></tr>
+              <tr><td>968</td><td>Scroll to top</td></tr>
+              <tr><td>1011</td><td>Sharee plugin</td></tr>
+              <tr><td>1042</td><td>Google Maps</td></tr>
+              <tr><td>1065</td><td>Contact Form</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+
+        <!-- Credits
+        ================================================== -->
+        <section id="credits">
+          <div class="page-header">
+            <h1>Credits.</h1>
+          </div>
+          <p class="lead">People and links that we want to say thank you!</p>
+          
+          <!-- Scripts -->
+          <h3>Javascripts.</h3>
+          <ul>
+            <li><a href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap</a> - <i>by Twitter team</i></li>
+            <li><a href="http://jquery.com">jQuery</a> - <i>by jQuery team</i></li>
+            <li><a href="http://selectivizr.com/">selectivizr</a> - <i>by Keith Clark</i></li>
+            <li><a href="http://www.keithclark.co.uk/labs/jquery-extended-selectors/">jQuery Extended Selectors</a> - <i>by Keith Clark</i></li>
+            <li><a href="https://github.com/scottjehl/Respond">Respond</a> - <i>by Scott Jehl</i></li>
+            <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing Plugin</a> - <i>by George McGinley Smith</i></li>
+            <li><a href="http://fancybox.net/">Fancybox</a> - <i>by Janis Skarnelis</i></li>
+            <li><a href="http://isotope.metafizzy.co/">Isotope</a> - <i>by David DeSandro</i></li>
+            <li><a href="http://github.com/hilios/jquery.countdown">jQuery Countdown</a> - <i>by Edson Hilios</i></li>
+            <li><a href="http://www.smashinglabs.pl/gmap">jQuery gMap v3</a> - <i>by Sebastian Poreba</i></li>
+            <li><a href="https://github.com/davatron5000/FitVids.js">FitVids </a> - <i>by Chris Coyier, Dave Rupert</i></li>
+            <li><a href="http://nivo.dev7studios.com">Nivo Slider</a> - <i>by Dev7studios</i></li>
+            <li><a href="http://Sharrre.com">Sharrre</a> - <i>by Julien Hany</i></li>
+            <li><a href="http://labs.skinkers.com/touchSwipe/">touchSwipe</a> - <i>by Matt Bryson</i></li>
+            <li><a href="http://modernizr.com/">Modernizr</a> - <i>by Modernizer team</i></li>
+            <li><a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848">Revolution Slider</a> - <i>by kenburn Slider</i></li>
+            <li><a href="http://schillmania.com/projects/soundmanager2">SoundManager 2</a> - <i>by Scott Schiller</i></li>
+            <li><a href="http://github.com/adriengibrat/jQuery-SoundManager">jQuery Playable</a> - <i>by Adrien Gibrat</i></li>
+          </ul>
+
+          <h3>PHP scripts.</h3>
+          <ul>
+            <li><a href="http://dev-tips.com/featured/ajax-and-php-contact-form">Contact Form</a> - <i>by Drew Douglass</i></li>
+            <li><a href="http://f6design.com/journal/2010/10/07/display-recent-twitter-tweets-using-php/">Twitter Feed Parser</a> - <i>Jonathan Nicol</i></li>
+          </ul>
+
+          <h3>Images.</h3>
+          <p>Most images we purchased on <a href="http://photodune.net/">photodune</a>. Here's a list, if you were interested in buying.</p>
+          <ul>
+            <li><a href="http://www.jay-han.com/2008/01/06/dotted-world-map-vector-resource-free-download/">Dotted world map vector resource</a></li>
+            <li><a href="http://photodune.net/item/serious-dj-with-headphones/1618539?sso">Serious DJ with headphones</a></li>
+            <li><a href="http://photodune.net/item/tattoo-art-sketch-of-a-machine-gears-and-skull/2334797?sso">Tattoo art, sketch of a machine gears and skull</a></li>
+            <li><a href="http://photodune.net/item/dancer-in-retro-style-with-splashes/2567881?sso">Dancer in retro style with splashes</a></li>
+            <li><a href="http://photodune.net/item/dj-in-front-of-a-rural-background/2470997?sso">Dj in front of a Rural background</a></li>
+            <li><a href="http://photodune.net/item/young-black-man-with-headphones/1116401?sso">Young black man with headphones</a></li>
+            <li><a href="http://photodune.net/item/hq-colorful-grunge-textures/2544423?sso">HQ Colorful Grunge Textures</a></li>
+            <li><a href="http://photodune.net/item/tattoo-design-with-skull-on-vintage-paper/2334731?sso">Tattoo design with skull on vintage paper</a></li>
+            <li><a href="http://photodune.net/item/closeup-of-a-teen-girl-with-headphones/169321?sso">Closeup Of A Teen Girl With Headphones</a></li>
+            <li><a href="http://photodune.net/item/city-skyline/1011301?sso">City Skyline</a></li>
+            <li><a href="http://photodune.net/item/aftermath/180951?sso">Aftermath</a></li>
+            <li><a href="http://photodune.net/item/astronaut-woman-futuristic-moon-space-planets/1373254?sso">astronaut woman futuristic moon space planets</a></li>
+            <li><a href="http://photodune.net/item/urban-lifestyle/2242753?sso">Urban lifestyle</a></li>
+            <li><a href="http://photodune.net/item/loud-hairstyle/2361342?sso">Loud hairstyle</a></li>
+          </ul>
+
+          <h3>Icons.</h3>
+          <ul>
+            <li><a href="http://www.iconsweets2.com/">Iconsweets2</a></li>
+          </ul>
+
+          <h3>Music.</h3>
+          <ul>
+            <li><a href="http://soundcloud.com/user2515034">Madoff</a></li>
+            <li><a href="http://audiojungle.net/item/dubstep-intro/2297062">Dubstep Intro</a></li>
+          </ul>
+
+          <h3>Videos.</h3>
+          <ul>
+            <li><a href="http://www.sintel.org/">Sintel</a> - <i>by Blender Foundation</i></li>
+            <li><a href="http://vimeo.com/20774732/">Robotic Wednesdays</a> - <i>by  BALEOUT</i></li>
+          </ul>
+
+        </section>
+
+
+        <!-- Support
+        ================================================== -->
+        <section id="support">
+          <div class="page-header">
+            <h1>Support.</h1>
+            <p>We provide technical support for this theme through Premium Support System. If you have questions or issues then do not hesitate - register, log in, create a ticket (<strong>enter the purchase code before you send a ticket.</strong>) with a complete description of your problem and our support team will investigate it and get back to you as soon as it's possible. </p>
+
+            <h3>Support Policy.</h3>
+            <p>Just for the record: we provide theme assistance because we consider ourselves as proffesionals and not because it is required from Envato authors. We will do our best to answer all your questions and help you, but sometimes you have to be patient. Modifications and 3rd party plugins are not subject to support - sorry.</p>
+            <h5>Before you ask.</h5>
+            <p>Make sure  that you have read documentation which was in theme package - it contains useful information on how to install and use the theme. You may be familiar with our FAQ section too.</p>
+            <h5>Range of support.</h5>
+            <p>Installation, customization or administration of WordPress itself are not a subject of support. We also do not provide support for any third party plugins or problems associated with using them with our themes. We focus on topics like installation and configuration of the theme, usage of theme features and potential bugs fix. We do not provide customization services. Support will not be provided when you want to modify the theme to suit your specific needs or when you want feature 'X' to be integrated with the theme.</p>
+            <h5>Working Hours.</h5>
+            <p>Rascals Labs office is located in Poland (EU) and our working hours are 8:00AM - 6:00PM (GMT +1) on workdays (Monday to Friday excluding public holidays).</p>
+            <hr>
+            <p><a class="btn btn-large btn-primary" href="http://rascalslabs.ticksy.com">Premium Support</a><a class="btn btn-large" href="http://rascals.eu/faq" style="margin-left: 5px;">Basic FAQs</a></p>
+
+          </div>
+          
+
+        </section>
+
+    </div>
+  </div>
+</div> <!-- /container -->
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Copyright Rascals Labs 2012. Powered by <a href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap.</a></p>
+      </div>
+    </footer>
+
+  <!-- Scripts
+  ================================================== -->
+  <script src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
